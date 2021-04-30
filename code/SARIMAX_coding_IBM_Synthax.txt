@@ -1,0 +1,26 @@
+DATASET ACTIVATE name_source_dataset. 
+ 
+SAVE OUTFILE='filepath' 
+  /COMPRESSED. 
+PREDICT THRU DAY 110 HOUR 23. 
+
+
+* Time Series Modeler (method in IBM to prototype the target feature MW with one exogenous feature predictor m3/h instant flow
+* this method automate the identificatino of the best fitted SARIMAMX in the dataset
+
+* here "INDEPENDENT=m3_h_orig_orig" refers to the exogenous feature predictor exposed to sensistivity analysis and 5 units drop of instant flow is reccommended
+
+TSMODEL
+   /MODELSUMMARY  PRINT=[MODELFIT] PLOT=[ MAPE]
+   /MODELSTATISTICS  DISPLAY=YES MODELFIT=[ SRSQUARE RSQUARE MAPE]
+   /MODELDETAILS  PRINT=[ FORECASTS]
+   /SERIESPLOT OBSERVED FORECAST FIT
+   /OUTPUTFILTER DISPLAY=ALLMODELS
+   /SAVE  PREDICTED(Predicted)
+   /AUXILIARY  CILEVEL=95 MAXACFLAGS=24
+   /MISSING USERMISSING=EXCLUDE
+   /MODEL DEPENDENT=MW INDEPENDENT=m3_h_orig_orig
+      PREFIX='Model'
+   /EXPERTMODELER TYPE=[ARIMA EXSMOOTH] TRYSEASONAL=YES
+   /AUTOOUTLIER  DETECT=ON TYPE=[ ADDITIVE LEVELSHIFT INNOVATIONAL TRANSIENT SEASONALADDITIVE
+    LOCALTREND ADDITIVEPATCH].
