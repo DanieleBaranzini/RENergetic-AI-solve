@@ -1,3 +1,74 @@
+README 
+
+All AI models and data in this folder are available on Dr Baranzini Daniele’s repo in GitHub for RENergetic: 
+
+https://github.com/DanieleBaranzini/RENergetic-AI-solve 
+
+  
+
+05/11 
+
+NEW BEST MODEL for OSR USER_STORY_1:  
+
+ 
+
+“model_s4” ... updating SOON! 
+
+Best model at 5/11 is  
+
+                     	model_s4	(Machine Learning: Least Angle Regression - LAR) 
+
+Name in github:  
+
+		     	“tbd” 
+
+ 
+
+Target: 		MW (MegaWatt consumption) 
+
+ 
+
+Feature Predictors: 	Series 
+
+			Month 
+
+			Day 
+
+			m3/h (hot water)
+
+ 
+
+11/05 
+
+Best model at 11/05 is  
+
+			Model 003 (Statistical Forecasting: SARIMAX): 
+
+Name in github:  
+
+			RENergetic_BARANZINI_Model_003_Backtest performance_for_Model001 
+
+ 
+
+Target:			MW (MegaWatt consumption) 
+
+ 
+
+Feature Predictors: 	m3/h (hot water flow cycle) 
+
+			External Temperature
+
+Zone:			GDPR
+
+
+
+
+
+
+
+
+
+
 07/05
 
 :	Model 003 is the best model to predict MW values with the use of m3/h instant flow (hot water)
