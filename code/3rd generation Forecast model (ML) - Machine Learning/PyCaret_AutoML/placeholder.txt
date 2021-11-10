@@ -1,0 +1,4 @@
+10/11/21
+
+model_s4 is best performance model for User Story 1 in RENergetic.
+it is a PyCaret generation with a Least Angle Regression algorithm 

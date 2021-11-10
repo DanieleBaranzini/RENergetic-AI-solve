@@ -1,0 +1,2 @@
+10/11/21
+time series SVM classifier on devel and exposed as demo
