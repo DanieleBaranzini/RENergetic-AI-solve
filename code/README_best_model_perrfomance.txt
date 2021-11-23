@@ -7,9 +7,7 @@ README
 NEW BEST MODEL for OSR USER_STORY_1 at 23/11:  
 
  
-Best model at 23/11 is  
-
-                     	model_s4	(Machine Learning: Least Angle Regression - LAR) 
+Best model at 23/11 is  model_s4	(Machine Learning: Least Angle Regression - LAR) 
 
 
 
