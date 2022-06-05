@@ -1,0 +1,9 @@
+19/01/22
+At present model_s4 (github version or sharefolder versions) is best performing model. Now its .pkl model will be tested in RENergetic plaform.
+In this period an majour database update will refresh the data samples with updates on all features availble in OSR
+
+
+
+10/11/21
+model_s4 is best performance model for User Story 1 in RENergetic.
+it is a PyCaret generation with a Least Angle Regression algorithm 

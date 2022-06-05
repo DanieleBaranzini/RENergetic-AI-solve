@@ -1,0 +1,2 @@
+05/06/22
+time series anomaly detection algorithms are tested on the MW prediction estimates by the 'model_s4_v_090122'

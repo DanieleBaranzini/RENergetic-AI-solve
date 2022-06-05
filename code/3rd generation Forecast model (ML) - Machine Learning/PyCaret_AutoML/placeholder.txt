@@ -1,3 +1,30 @@
+05/06/22
+NEW BEST MODEL for OSR USER_STORY_1 at 05/06/22:  
+
+ 
+Best model		'model_s4_v_090122'	(Machine Learning: Least Angle Regression - LAR)
+
+notes:			[this model could be replaced by a pycaret-ts-alpha method in summer 2022] 
+
+
+
+Name in github:		''model_s4_v_090122'-GitHub_version' 
+
+ 
+Target:			MW (MegaWatt consumption) 
+
+
+Feature Predictors: 	Series 
+
+			Month 
+
+			Day 
+
+			m3/h (hot water)
+
+
+
+
 19/01/22
 At present model_s4 (github version or sharefolder versions) is best performing model. Now its .pkl model will be tested in RENergetic plaform.
 In this period an majour database update will refresh the data samples with updates on all features availble in OSR

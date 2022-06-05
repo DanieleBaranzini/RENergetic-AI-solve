@@ -1,6 +1,40 @@
 README 
 
   
+2022
+05/06
+NEW BEST MODEL for OSR USER_STORY_1 at 05/06/22:  
+
+ 
+Best model		'model_s4_v_090122'	(Machine Learning: Least Angle Regression - LAR)
+
+notes:			[this model could be replaced by a pycaret-ts-alpha method in summer 2022] 
+
+
+
+Name in github:		''model_s4_v_090122'-GitHub_version' 
+
+ 
+Target:			MW (MegaWatt consumption) 
+
+
+Feature Predictors: 	Series 
+
+			Month 
+
+			Day 
+
+			m3/h (hot water)
+
+
+
+
+
+
+
+
+
+2021
 
 23/11 
 
